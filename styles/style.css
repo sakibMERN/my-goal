@@ -31,7 +31,6 @@ header .banner img {
   margin: 0 auto;
 }
 
-
 header .banner-title {
   font-size: 48px;
   font-weight: 800;
@@ -40,7 +39,6 @@ header .banner-title {
   margin-bottom: 24px;
 }
 
-
 header .banner-description {
   font-size: 16px;
   line-height: 26px;
@@ -48,10 +46,9 @@ header .banner-description {
   margin-bottom: 32px;
 }
 
-
-header .contract-btn {
+/* header .contract-btn {
   margin-bottom: 44px;
-}
+} */
 header .contract-btn button {
   color: rgb(255, 255, 255);
   font-size: 20px;
@@ -67,12 +64,115 @@ header .contract-btn button {
 }
 
 /* Main section start here */
-main{
-    padding: 0 150px;
+main {
+  padding: 0 150px;
 }
 
 main article {
-  padding: 80px 97px 80px 97px;
+  padding: 80px 97px;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
+  margin-bottom: 90px;
+}
+
+/* About interest section start here */
+div.query {
+  margin: 0 48px 47px;
+}
+
+article .query-title {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+article .query-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+/* Web-interest section start */
+
+.about-interest .interest-title {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+.about-interest .interest-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 32px;
+  text-align: left;
+  opacity: 0.7;
+}
+
+.about-interest button {
+  box-sizing: border-box;
+  padding: 12px 20px;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 6px;
+  opacity: 0.7;
+}
+/*Adjust position inside "web-interest-1,2,3" using flex  */
+
+.about-interest .web-interest-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 48px;
+  border-radius: 16px;
+  margin-bottom: 32px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.about-interest .web-interest-2 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 48px;
+  /* justify-content: space-between; */
+  background-color: #fff;
+  padding: 48px;
+  border-radius: 16px;
+  margin-bottom: 32px;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.about-interest .web-interest-3 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 48px;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 48px;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+div.one,
+div.two {
+  width: 477px;
+  padding: 0;
+  margin: 0;
 }
