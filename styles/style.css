@@ -415,3 +415,20 @@ input[type="submit"] {
   padding: 17px 20px;
   background: rgb(255, 255, 255);
 }
+
+/* Footer section  */
+a{
+  margin-right: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 30px 150px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+
+
