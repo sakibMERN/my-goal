@@ -18,6 +18,41 @@ button:hover {
   color: rgb(13, 19, 33);
 }
 
+/* Top-bar start  */
+.name h2 {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  text-align: left;
+}
+.name span{
+  font-size: 50px;
+  color: red;
+}
+.name .download-btn{
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  opacity: 0.8;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  padding: 17px 24px;
+  display: block;
+  border: none;
+  border-radius: 8px;
+  border: 1px solid rgb(13, 19, 33);
+  background: rgb(255, 255, 255);
+}
+/* adjust topbar  */
+
+.name{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 35px 166px 35px 150px;
+}
+
 /* Banner section start */
 header {
   background-image: url(../assets/Hero-bg.png);
@@ -25,6 +60,7 @@ header {
   margin-bottom: 74px;
   border-bottom: 2px dashed rgb(199, 198, 198);
 }
+
 header .banner {
   padding: 26px 221px 44px 221px;
 }
@@ -53,7 +89,7 @@ header .banner-description {
   opacity: 0.7;
 }
 
-header a{
+header a {
   text-decoration: none;
 }
 
@@ -418,7 +454,7 @@ input[type="submit"] {
 }
 
 /* Footer section  */
-a{
+a {
   margin-right: 20px;
 }
 
@@ -431,5 +467,3 @@ footer {
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.03);
 }
-
-
