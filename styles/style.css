@@ -75,7 +75,7 @@ main article {
   margin-bottom: 90px;
 }
 
-/* About interest section start here */
+/* About-interest section start here */
 div.query {
   margin: 0 48px 47px;
 }
@@ -98,7 +98,7 @@ article .query-description {
 
 /* Web-interest section start */
 
-.about-interest .interest-title {
+article .interest-title {
   color: rgba(13, 19, 33, 0.7);
   font-size: 24px;
   font-weight: 700;
@@ -108,7 +108,7 @@ article .query-description {
   margin-top: 0;
 }
 
-.about-interest .interest-description {
+article .interest-description {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -117,16 +117,25 @@ article .query-description {
   opacity: 0.7;
 }
 
-.about-interest button {
+article button {
   box-sizing: border-box;
   padding: 12px 20px;
   border: 1px solid rgb(13, 19, 33);
   border-radius: 6px;
   opacity: 0.7;
 }
+/* common box sizing */
+
+article div.one,
+div.two {
+  width: 477px;
+  padding: 0;
+  margin: 0;
+}
+
 /*Adjust position inside "web-interest-1,2,3" using flex  */
 
-.about-interest .web-interest-1 {
+article .web-interest-1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -140,11 +149,10 @@ article .query-description {
     rgba(255, 255, 255, 0) 100%
   );
 }
-.about-interest .web-interest-2 {
+article .web-interest-2 {
   display: flex;
   flex-direction: row;
   column-gap: 48px;
-  /* justify-content: space-between; */
   background-color: #fff;
   padding: 48px;
   border-radius: 16px;
@@ -155,7 +163,7 @@ article .query-description {
     rgba(255, 255, 255, 0) 100%
   );
 }
-.about-interest .web-interest-3 {
+article .web-interest-3 {
   display: flex;
   flex-direction: row;
   column-gap: 48px;
@@ -170,9 +178,34 @@ article .query-description {
   );
 }
 
-div.one,
-div.two {
-  width: 477px;
-  padding: 0;
-  margin: 0;
-}
+
+ /* Inspiration section start here */
+ section.inspiration{
+  margin-bottom: 151px;
+ }
+.inspiration .inspire-query{
+  margin: 0 48px 47px;
+} 
+
+ main .inspire-title{
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  text-align: center;
+ }
+ main.inspire-description{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+ }
+
+ main .inspire-video{
+  box-sizing: border-box;
+  padding: 32px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+ }
+
